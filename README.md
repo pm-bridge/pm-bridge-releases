@@ -18,7 +18,7 @@ Lead a virtual team of AI colleagues on your Mac, by chat. Each "persona" is a l
 - [First steps](#first-steps)
 - [Everyday use](#everyday-use)
 - [External chats: personas answer your IM for you](#external-chats-personas-answer-your-im-for-you)
-- [Plugins and integrations](#plugins-and-integrations)
+- [Plugins](#plugins)
 - [Privacy and security](#privacy-and-security)
 - [Updates](#updates)
 - [FAQ](#faq)
@@ -120,7 +120,7 @@ Once you bring in IM chats such as Feishu, the **External chats** page in the si
 
 ![External chats](images/en/05-external.png)
 
-**How to bring one in**: install the IM plugin (Feishu, for example) and enable it under **Settings → Integrations**, then pick the chat under a group's **Group info → External IM**.
+**How to bring one in**: install the IM plugin (Feishu, for example) from **Settings → Plugins → Marketplace** and enable it under **Installed**, then open a group's **Group info → External IM** and press **Link a chat…** (or press **+** on the **External chats** page, where you can also make a new group for the chat).
 
 **How the answering persona works**:
 
@@ -134,9 +134,9 @@ Once you bring in IM chats such as Feishu, the **External chats** page in the si
 
 ---
 
-## Plugins and integrations
+## Plugins
 
-The app comes with no plugins: install the ones you need under **Settings → Integrations → Marketplace**. The first time you open that page it fetches the list of the **PM Bridge Official** marketplace ([pm-bridge-marketplace](https://github.com/pm-bridge/pm-bridge-marketplace)). Press **Install**, look at what it will run and confirm; then enable it under **Tools & skills**. Each plugin is released and updated on its own: **Check for updates** is under **Advanced** on its card.
+The app comes with no plugins: install the ones you need under **Settings → Plugins → Marketplace**: paste a link or a folder into its box, or install from a marketplace's card. The first time you open that page it fetches the list of the **PM Bridge Official** marketplace ([pm-bridge-marketplace](https://github.com/pm-bridge/pm-bridge-marketplace)). Press **Install**, look at what it will run and confirm; then enable it under **Installed**, where every plugin's card says whether it gives tools, skills or an IM channel. Each plugin is released and updated on its own: **Check for updates** is under **Advanced** on its card.
 
 | Plugin | What it does |
 |---|---|
@@ -181,7 +181,7 @@ See step 3 of [Download and install](#download-and-install).
 Check under **Settings → Models & accounts** that a model is connected and a judge model is chosen; the ⚠️ **Issues** page (bottom left) lists model, plugin and sandbox errors and how to fix them.
 
 **IM messages do not come in?**
-Check that the IM plugin is installed from the marketplace and running under **Settings → Integrations**, and that the chat is linked under the group's **External IM** and not paused.
+Check that the IM plugin is installed from the marketplace and running under **Settings → Plugins → Installed**, and that the chat is linked under the group's **External IM** and not paused.
 
 **A large file will not send?**
 An attachment can be 25 MB at most.
