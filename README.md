@@ -120,7 +120,7 @@ Once you bring in IM chats such as Feishu, the **External chats** page in the si
 
 ![External chats](images/en/05-external.png)
 
-**How to bring one in**: install the IM plugin (Feishu, for example) from **Settings → Plugins → Marketplace** and enable it under **Installed**, then open a group's **Group info → External IM** and press **Link a chat…** (or press **+** on the **External chats** page, where you can also make a new group for the chat).
+**How to bring one in**: install the IM plugin (Feishu, for example) from **Settings → Plugins → Discover** and enable it under **Installed**, then open a group's **Group info → External IM** and press **Link a chat…** (or press **+** on the **External chats** page, where you can also make a new group for the chat).
 
 **How the answering persona works**:
 
@@ -136,7 +136,7 @@ Once you bring in IM chats such as Feishu, the **External chats** page in the si
 
 ## Plugins
 
-The app comes with no plugins: install the ones you need under **Settings → Plugins → Marketplace**: paste a link or a folder into its box, or install from a marketplace's card. The first time you open that page it fetches the list of the **PM Bridge Official** marketplace ([pm-bridge-marketplace](https://github.com/pm-bridge/pm-bridge-marketplace)). Press **Install**, look at what it will run and confirm; then enable it under **Installed**, where every plugin's card says whether it gives tools, skills or an IM channel. Each plugin is released and updated on its own: **Check for updates** is under **Advanced** on its card.
+The app comes with no plugins: install the ones you need under **Settings → Plugins → Discover**, which lists the plugins of every marketplace (you can also paste a link or a folder there). The first time you open it, it fetches the list of the **PM Bridge Official** marketplace ([pm-bridge-marketplace](https://github.com/pm-bridge/pm-bridge-marketplace)). Press **Install**, look at what it will run and confirm; then enable it under **Installed**, where every plugin's card says whether it gives tools, skills or an IM channel. Each plugin is released and updated on its own: **Check for updates** is under **Advanced** on its card.
 
 | Plugin | What it does |
 |---|---|
@@ -153,7 +153,7 @@ The app comes with no plugins: install the ones you need under **Settings → Pl
 
 **Upgrading from an older version**: versions 0.1.45 and earlier shipped these plugins. After the upgrade, the ones you had enabled are installed from the official marketplace and enabled again, with their settings, keys, grants and linked chats kept (this needs the internet; one that is missing a setting stays disabled until you fill it in on its card).
 
-You can also add other plugin marketplaces (a git repository, a URL or a local folder). Which tools a persona may use is granted per persona under **Team → persona → Tools**; a tool that changes things shows a card for you to confirm before it runs.
+You can also add other plugin marketplaces (a git repository, a URL or a local folder) under **Marketplaces**, and add an MCP server by hand under **Installed → Add by hand…**. Which tools a persona may use is granted per persona under **Team → persona → Tools**; a tool that changes things shows a card for you to confirm before it runs.
 
 ---
 
