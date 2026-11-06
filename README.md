@@ -43,7 +43,7 @@ Lead a virtual team of AI colleagues on your Mac, by chat. Each "persona" is a l
 
 ## Download and install
 
-1. Open [Releases](https://github.com/tianxia--/pm-bridge-releases/releases/latest) and download the package for your Mac:
+1. Open [Releases](https://github.com/pm-bridge/pm-bridge-releases/releases/latest) and download the package for your Mac:
    - Apple silicon (M1/M2/M3/M4): `PM-Bridge-x.y.z-arm64-mac.zip`
    - Intel: `PM-Bridge-x.y.z-x64-mac.zip`
 2. Unzip it and drag **PM Bridge.app** into Applications.
@@ -136,7 +136,7 @@ Once you bring in IM chats such as Feishu, the **External chats** page in the si
 
 ## Plugins and integrations
 
-The app comes with no plugins: install the ones you need under **Settings → Integrations → Marketplace**. The first time you open that page it fetches the list of the **PM Bridge Official** marketplace ([pm-bridge-marketplace](https://github.com/tianxia--/pm-bridge-marketplace)). Press **Install**, look at what it will run and confirm; then enable it under **Tools & skills**. Each plugin is released and updated on its own: **Check for updates** is under **Advanced** on its card.
+The app comes with no plugins: install the ones you need under **Settings → Integrations → Marketplace**. The first time you open that page it fetches the list of the **PM Bridge Official** marketplace ([pm-bridge-marketplace](https://github.com/pm-bridge/pm-bridge-marketplace)). Press **Install**, look at what it will run and confirm; then enable it under **Tools & skills**. Each plugin is released and updated on its own: **Check for updates** is under **Advanced** on its card.
 
 | Plugin | What it does |
 |---|---|
@@ -168,7 +168,7 @@ You can also add other plugin marketplaces (a git repository, a URL or a local f
 
 ## Updates
 
-The app checks for new versions by itself; the current version and any update are at the bottom of **Settings → General**. What each version changed is on [Releases](https://github.com/tianxia--/pm-bridge-releases/releases).
+The app checks for new versions by itself; the current version and any update are at the bottom of **Settings → General**. What each version changed is on [Releases](https://github.com/pm-bridge/pm-bridge-releases/releases).
 
 ---
 

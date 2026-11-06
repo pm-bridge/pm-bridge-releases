@@ -43,7 +43,7 @@
 
 ## 下载与安装
 
-1. 打开 [Releases](https://github.com/tianxia--/pm-bridge-releases/releases/latest)，按你的 Mac 下载：
+1. 打开 [Releases](https://github.com/pm-bridge/pm-bridge-releases/releases/latest)，按你的 Mac 下载：
    - Apple 芯片（M1/M2/M3/M4）：`PM-Bridge-x.y.z-arm64-mac.zip`
    - Intel 芯片：`PM-Bridge-x.y.z-x64-mac.zip`
 2. 解压，把 **PM Bridge.app** 拖进“应用程序”文件夹。
@@ -136,7 +136,7 @@
 
 ## 插件与集成
 
-App 本身不带插件，要用哪个就去 **设置 → 集成 → 市场** 里装：第一次打开市场页时，会自动获取 **PM Bridge 官方** 市场（[pm-bridge-marketplace](https://github.com/tianxia--/pm-bridge-marketplace)）的插件列表。点 **安装**，看过它会运行什么之后确认；装好后在 **工具与技能** 里启用。每个插件单独发布、单独更新，在插件卡片的“高级”里 **检查更新**。
+App 本身不带插件，要用哪个就去 **设置 → 集成 → 市场** 里装：第一次打开市场页时，会自动获取 **PM Bridge 官方** 市场（[pm-bridge-marketplace](https://github.com/pm-bridge/pm-bridge-marketplace)）的插件列表。点 **安装**，看过它会运行什么之后确认；装好后在 **工具与技能** 里启用。每个插件单独发布、单独更新，在插件卡片的“高级”里 **检查更新**。
 
 | 插件 | 用途 |
 |---|---|
@@ -168,7 +168,7 @@ App 本身不带插件，要用哪个就去 **设置 → 集成 → 市场** 里
 
 ## 更新
 
-App 会自动检查新版本，**设置 → 通用** 底部可以看到当前版本和更新。每个版本改了什么，见 [Releases](https://github.com/tianxia--/pm-bridge-releases/releases)。
+App 会自动检查新版本，**设置 → 通用** 底部可以看到当前版本和更新。每个版本改了什么，见 [Releases](https://github.com/pm-bridge/pm-bridge-releases/releases)。
 
 ---
 
