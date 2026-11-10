@@ -14,6 +14,7 @@ Lead a virtual team of AI colleagues on your Mac, by chat. Each "persona" is a l
 ## Contents
 
 - [Features](#features)
+- [Roadmap](#roadmap)
 - [Download and install](#download-and-install)
 - [First steps](#first-steps)
 - [Everyday use](#everyday-use)
@@ -38,6 +39,45 @@ Lead a virtual team of AI colleagues on your Mac, by chat. Each "persona" is a l
 | **External chats** | Bring in chats from IM apps such as Feishu: see the whole conversation in the app (images and files included), let a persona reply in your name, and hand work to the team. |
 | **Side chat** | A plain chat with a model, no tools and no memory, for quick questions. |
 | **English and Chinese** | Switch the interface language in Settings. |
+
+---
+
+## Roadmap
+
+What is done, what is being worked on, and what comes next. What each version changed is on [Releases](https://github.com/pm-bridge/pm-bridge-releases/releases).
+
+### Done
+
+- **An AI team in a chat**: personas with their own model, role, skills, memory and permission level, led by the Steward; direct and group chats, @-mentions, and a judge model that routes group messages.
+- **Tasks**: a queue you can watch live and step into; personas asking each other for help; scheduled tasks; a plan you approve before the changes run.
+- **Memory**: persona and team memory, kept only from what was actually said; recall across memory, chats and pins; anything can be retracted.
+- **Permissions and sandbox**: one level per persona (read only / workspace / full access); commands run in a sandbox, and going past it asks you on a card; the exceptions you allowed are listed and can be removed.
+- **Plugins**: MCP servers and skills; the official marketplace and your own; install from a link, a folder or an install package; tools granted per persona.
+- **External chats**: link IM chats, see whole conversations with images and files, let a persona reply in your name, hand work to the team; messages that reply to you or mention your keywords are marked.
+- **Browser**: a browser panel in the app; personas read pages drawn by scripts; personas use a browser of their own in your panel (their own sign-ins, your yes per site and before anything that sends, deletes or pays, take over any time); "Send to chat" hands a page to a persona.
+- **Knowing what is going on**: asked how work is going, a persona answers from what it has in hand (`my_work`), without queuing a task; a line in the group when someone joins or leaves; diagnostic reports in Settings (tasks at once and follow-on work, prompt cache and cost, memory), exported as a short summary or a full file.
+- **Everyday**: file previews (PDF, Word, Excel), a side chat, a terminal panel, web search, usage and cost, feedback straight to a GitHub issue, automatic updates, English and Chinese, packages for Apple silicon and Intel Macs.
+
+### In progress
+
+- **The personas' browser on complex web systems**: dialogs, shadow DOM and same-site frames work now; being tried on real systems (incident and ticket tools) and tuned by what it runs into.
+- **External chats, what concerns you**: replies to you and your keywords are marked; being tuned by daily use.
+
+### Planned
+
+- **Personas using the whole computer**: seeing the screen and using mouse and keyboard in apps outside the browser, with your yes and the same permission levels.
+- **Reusable browser flows**: a flow a persona got through once (raising an incident, say) kept and run again.
+- **The personas' browser, further**: frames from other sites; downloading files into the workspace and uploading from it.
+- **A digest of your external chats**: what concerns you, gathered for you at set times.
+- **Folders outside the workspace**: a persona asking on a card to read or write one more folder.
+- **A desktop pet**: a small 3D dragon beside the Dock that shows what the team is doing and takes a quick message for the Steward; it keeps out of the way of your typing.
+- **Memory clean-up**: merging near duplicates and flagging stale entries, for you to confirm; whether it is needed is decided by the memory figures in the diagnostic reports.
+
+### On hold
+
+- **Voice**: in everyday office work you type to the team; voice waits until there is a real need.
+- **Team templates**: personas split by project already work well; saving and importing a whole team waits until the reports show it would help.
+- **Connectors (GitHub, Gmail)**: GitHub's MCP server works today with an access token; Gmail needs a Google sign-in app of your own. Both wait until there is a daily need.
 
 ---
 
@@ -168,7 +208,7 @@ You can also add other plugin marketplaces (a git repository, a URL or a local f
 
 ## Updates
 
-The app checks for new versions by itself; the current version and any update are at the bottom of **Settings → General**. What each version changed is on [Releases](https://github.com/pm-bridge/pm-bridge-releases/releases).
+The app checks for new versions by itself; the current version and any update are under **Settings → About**. What each version changed is on [Releases](https://github.com/pm-bridge/pm-bridge-releases/releases).
 
 ---
 
@@ -187,4 +227,4 @@ Check that the IM plugin is installed from the marketplace and running under **S
 An attachment can be 25 MB at most.
 
 **How do I send feedback?**
-**Settings → General → Feedback** makes a diagnostics bundle: version, system, team size, model names and recent open issues, all masked. Nothing is sent anywhere by itself: you preview it first, then copy or download it and send it to us.
+**Settings → About → Feedback** makes a diagnostics bundle: version, system, team size, model names and recent open issues, all masked. Nothing is sent anywhere by itself: you preview it first, then copy or download it, or open it as a GitHub issue.
