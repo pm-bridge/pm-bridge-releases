@@ -59,6 +59,7 @@ What is done, what is being worked on, and what comes next. What each version ch
 - **Desktop pet**: a small 3D dragon beside the Dock shows what the team is doing, turns to you when something waits, and takes a quick message or dropped files for the Steward; hidden from screen sharing.
 - **Devices and background**: Android emulators and iOS simulators run by the app with their own window, shared by everyone and closed only by you; services a persona keeps running go on with its work; one Background page to see and stop them, with live output.
 - **Diagnostic reports**: concurrency and follow-on work, prompt cache and cost, memory, failures and errors, running state, routing and external chats; exported as a short summary or a full file.
+- **Undo a task**: each task's workspace is kept as a snapshot before and after it (in the app's own store, never your repository), so its changes — by file tools or commands — can be undone file by file, later edits left alone, the undo itself revertible; kept 7 days.
 - **Git over HTTPS**: a Full access persona's git borrows your own git sign-ins, one command at a time, without the keychain being opened to it.
 - **Everyday**: file previews (PDF, Word, Excel), a side chat, a terminal panel, web search, usage and cost, feedback straight to a GitHub issue, automatic updates, English and Chinese, packages for Apple silicon and Intel Macs.
 
