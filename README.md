@@ -56,6 +56,10 @@ What is done, what is being worked on, and what comes next. What each version ch
 - **External chats**: link IM chats, see whole conversations with images and files, let a persona reply in your name, hand work to the team; messages that reply to you or mention your keywords are marked.
 - **Browser**: a browser panel in the app; personas read pages drawn by scripts; personas use a browser of their own in your panel (their own sign-ins, your yes per site and before anything that sends, deletes or pays, take over any time); "Send to chat" hands a page to a persona.
 - **Knowing what is going on**: asked how work is going, a persona answers from what it has in hand (`my_work`), without queuing a task; a line in the group when someone joins or leaves; diagnostic reports in Settings (tasks at once and follow-on work, prompt cache and cost, memory), exported as a short summary or a full file.
+- **Desktop pet**: a small 3D dragon beside the Dock shows what the team is doing, turns to you when something waits, and takes a quick message or dropped files for the Steward; hidden from screen sharing.
+- **Devices and background**: Android emulators run by the app with their own window, shared by everyone and closed only by you; services a persona keeps running go on with its work; one Background page to see and stop them, with live output.
+- **Diagnostic reports**: concurrency and follow-on work, prompt cache and cost, memory, failures and errors, running state, routing and external chats; exported as a short summary or a full file.
+- **Git over HTTPS**: a Full access persona's git borrows your own git sign-ins, one command at a time, without the keychain being opened to it.
 - **Everyday**: file previews (PDF, Word, Excel), a side chat, a terminal panel, web search, usage and cost, feedback straight to a GitHub issue, automatic updates, English and Chinese, packages for Apple silicon and Intel Macs.
 
 ### In progress
@@ -70,7 +74,6 @@ What is done, what is being worked on, and what comes next. What each version ch
 - **The personas' browser, further**: frames from other sites; downloading files into the workspace and uploading from it.
 - **A digest of your external chats**: what concerns you, gathered for you at set times.
 - **Folders outside the workspace**: a persona asking on a card to read or write one more folder.
-- **A desktop pet**: a small 3D dragon beside the Dock that shows what the team is doing and takes a quick message for the Steward; it keeps out of the way of your typing.
 - **Memory clean-up**: merging near duplicates and flagging stale entries, for you to confirm; whether it is needed is decided by the memory figures in the diagnostic reports.
 
 ### On hold
