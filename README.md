@@ -60,6 +60,8 @@ What is done, what is being worked on, and what comes next. What each version ch
 - **Devices and background**: Android emulators and iOS simulators run by the app with their own window, shared by everyone and closed only by you; services a persona keeps running go on with its work; one Background page to see and stop them, with live output.
 - **Diagnostic reports**: concurrency and follow-on work, prompt cache and cost, memory, failures and errors, running state, routing and external chats; exported as a short summary or a full file.
 - **Undo a task**: each task's workspace is kept as a snapshot before and after it (in the app's own store, never your repository), so its changes — by file tools or commands — can be undone file by file, later edits left alone, the undo itself revertible; kept 7 days.
+- **Talking while it works**: in a direct chat, what you say while a task runs goes either into that task or to the chat, never both; a persona answers your question at once mid-task and goes on, the result still at the end.
+- **Seeing work as it happens**: a task's live view opens on a Progress page — status, time and about what it cost, its checklist or plan, what it is doing now, its background commands live (latest line, a progress bar, a warning after 2 minutes without output), what it said while working; Python output and progress bars show as they are written.
 - **Git over HTTPS**: a Full access persona's git borrows your own git sign-ins, one command at a time, without the keychain being opened to it.
 - **Everyday**: file previews (PDF, Word, Excel), a side chat, a terminal panel, web search, usage and cost, feedback straight to a GitHub issue, automatic updates, English and Chinese, packages for Apple silicon and Intel Macs.
 
@@ -148,7 +150,7 @@ Click a persona in the chat list to chat with it. A simple question gets a direc
 
 ### Tasks: watch them work
 
-The **Tasks** page lists what is running and what finished recently. Open one to follow it live: each tool call, the files written, the code changes (diff). While it runs you can **Reply to this task** to change its course, or stop it. **Scheduled tasks** run things every day or every week.
+The **Tasks** page lists what is running and what finished recently. Open one to follow it live: the **Progress** page says how far it is and what it is doing now, with its background commands' latest output; **Activity** has each tool call, **Files** the files written and the code changes (diff). While it runs you can **Reply to this task** to change its course, or stop it. **Scheduled tasks** run things every day or every week.
 
 ![Tasks](images/en/04-tasks.png)
 
