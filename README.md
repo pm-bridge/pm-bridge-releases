@@ -62,6 +62,7 @@ What is done, what is being worked on, and what comes next. What each version ch
 - **Undo a task**: each task's workspace is kept as a snapshot before and after it (in the app's own store, never your repository), so its changes — by file tools or commands — can be undone file by file, later edits left alone, the undo itself revertible; kept 7 days.
 - **Talking while it works**: in a direct chat, what you say while a task runs goes either into that task or to the chat, never both; a persona answers your question at once mid-task and goes on, the result still at the end.
 - **Seeing work as it happens**: a task's live view opens on a Progress page — status, time and about what it cost, its checklist or plan, what it is doing now, its background commands live (latest line, a progress bar, a warning after 2 minutes without output), what it said while working; Python output and progress bars show as they are written.
+- **Subscription sign-in status**: Settings shows whether a Claude or ChatGPT subscription sign-in still works (checked at start and once a day, without a model call); when it expires, a banner says so with Sign in again, and personas on it wait instead of switching models.
 - **Git over HTTPS**: a Full access persona's git borrows your own git sign-ins, one command at a time, without the keychain being opened to it.
 - **Everyday**: file previews (PDF, Word, Excel), a side chat, a terminal panel, web search, usage and cost, feedback straight to a GitHub issue, automatic updates, English and Chinese, packages for Apple silicon and Intel Macs.
 
@@ -111,7 +112,7 @@ What is done, what is being worked on, and what comes next. What each version ch
 
 **Settings → Models & accounts**:
 
-- With a Claude Pro/Max or ChatGPT Plus/Pro subscription: press **Sign in** under Providers.
+- With a Claude Pro/Max or ChatGPT Plus/Pro subscription: press **Sign in** under Providers. The card shows whether the sign-in still works; if it expires, a banner across the app offers **Sign in again**.
 - With an API: press **Add provider** and fill in the endpoint and the key. Keys are kept in the macOS keychain and never written to a file.
 - Then pick a **Judge model** (it routes messages and decides whether to answer; a cheap, fast one is fine).
 
