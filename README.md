@@ -61,6 +61,8 @@ What is done, what is being worked on, and what comes next. What each version ch
 - **Diagnostic reports**: concurrency and follow-on work, prompt cache and cost, memory, failures and errors, running state, routing and external chats; exported as a short summary or a full file.
 - **Undo a task**: each task's workspace is kept as a snapshot before and after it (in the app's own store, never your repository), so its changes — by file tools or commands — can be undone file by file, later edits left alone, the undo itself revertible; kept 7 days.
 - **Direct chats answer at once**: your message goes straight to the persona, the way a conversation with Claude Code does, with no judge in between. It answers what it can right away, puts longer work in the background as a task it words itself, and hands what you say about a running task to that task; one answer is kept to 15 steps or 2 minutes, so the chat is never held up.
+- **Groups answer at once too**: what you say to someone in a group goes to that persona's own line there: it answers on the spot ("On the spot") or queues a task; your @ asks no judge, and without an @ the judge only picks who. In a group this line can only read, so changes still go through tasks, the group's rules and undo.
+- **A broken judge does not guess**: when the judge model cannot be used, your group message waits with "Give it to the group owner" and "Judge again", and is judged again by itself once the judge works.
 - **Seeing work as it happens**: a task's live view opens on a Progress page — status, time and about what it cost, its checklist or plan, what it is doing now, its background commands live (latest line, a progress bar, a warning after 2 minutes without output), what it said while working; Python output and progress bars show as they are written.
 - **Project knowledge base**: personas keep notes per project as they work (overview, to-do, decisions, releases, known issues), with nothing for you to set up; a Projects page shows the tree, and you can read, edit, see the history and revert. Plain Markdown files your personas' commands cannot reach.
 - **Subscription sign-in status**: Settings shows whether a Claude or ChatGPT subscription sign-in still works (checked at start and once a day, without a model call); when it expires, a banner says so with Sign in again, and personas on it wait instead of switching models.
@@ -69,7 +71,7 @@ What is done, what is being worked on, and what comes next. What each version ch
 
 ### In progress
 
-- **Groups, the same way as direct chats**: in a group, the judge only picks who answers, and each persona answers or queues work itself; when the judge cannot work, the group waits for you instead of guessing; stopping tasks from the chat.
+- **Groups, the rest of the way**: members handing work to each other through their main lines too; stopping tasks from the chat.
 - **The personas' browser on complex web systems**: dialogs, shadow DOM and same-site frames work now; being tried on real systems (incident and ticket tools) and tuned by what it runs into.
 - **External chats, what concerns you**: replies to you and your keywords are marked; being tuned by daily use.
 
