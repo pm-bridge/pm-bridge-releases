@@ -48,7 +48,7 @@ What is done, what is being worked on, and what comes next. What each version ch
 
 ### Done
 
-- **An AI team in a chat**: personas with their own model, role, skills, memory and permission level, led by the Steward; direct and group chats, @-mentions, and a judge model that routes group messages.
+- **An AI team in a chat**: personas with their own model, role, skills, memory and permission level, led by the Steward; direct and group chats, @-mentions, and a judge model that picks who takes a group message.
 - **Tasks**: a queue you can watch live and step into; personas asking each other for help; scheduled tasks; a plan you approve before the changes run.
 - **Memory**: persona and team memory, kept only from what was actually said; recall across memory, chats and pins; anything can be retracted.
 - **Permissions and sandbox**: one level per persona (read only / workspace / full access); commands run in a sandbox, and going past it asks you on a card; the exceptions you allowed are listed and can be removed.
@@ -72,7 +72,6 @@ What is done, what is being worked on, and what comes next. What each version ch
 
 ### In progress
 
-- **Groups, the rest of the way**: members handing work to each other through their main lines too.
 - **The personas' browser on complex web systems**: dialogs, shadow DOM and same-site frames work now; being tried on real systems (incident and ticket tools) and tuned by what it runs into.
 - **External chats, what concerns you**: replies to you and your keywords are marked; being tuned by daily use.
 
