@@ -65,13 +65,14 @@ What is done, what is being worked on, and what comes next. What each version ch
 - **Stop work by saying so**: ask a persona to stop a task in the chat; one not started stops at once, a running one asks you on a card first. On the Tasks page, tick several and stop them together.
 - **A broken judge does not guess**: when the judge model cannot be used, your group message waits with "Give it to the group owner" and "Judge again", and is judged again by itself once the judge works.
 - **Seeing work as it happens**: a task's live view opens on a Progress page — status, time and about what it cost, its checklist or plan, what it is doing now, its background commands live (latest line, a progress bar, a warning after 2 minutes without output), what it said while working; Python output and progress bars show as they are written.
-- **Project knowledge base**: personas keep notes per project as they work (overview, to-do, decisions, releases, known issues), with nothing for you to set up; a Projects page shows the tree, and you can read, edit, see the history and revert. Plain Markdown files your personas' commands cannot reach.
+- **Project knowledge base**: personas keep notes per project as they work, with nothing for you to set up. Every project has fixed pages, each with one job: Overview, Now (the current focus and work in flight), To-do, Decisions, Versions, and a repository's Architecture and Known issues. Personas write the conclusion first, one thing per line, and every page says who verified it when. A Projects page shows the tree, and you can read, edit, see the history and revert. Plain Markdown files your personas' commands cannot reach.
 - **Subscription sign-in status**: Settings shows whether a Claude or ChatGPT subscription sign-in still works (checked at start and once a day, without a model call); when it expires, a banner says so with Sign in again, and personas on it wait instead of switching models.
 - **Git over HTTPS**: a Full access persona's git borrows your own git sign-ins, one command at a time, without the keychain being opened to it.
 - **Everyday**: file previews (PDF, Word, Excel), a side chat, a terminal panel, web search, usage and cost, feedback straight to a GitHub issue, automatic updates, English and Chinese, packages for Apple silicon and Intel Macs.
 
 ### In progress
 
+- **Project knowledge base, further**: out-of-date pages marked; all open to-dos, open issues and decisions gathered in one view; search; "Tidy this project" to put scattered pages in their place.
 - **The personas' browser on complex web systems**: dialogs, shadow DOM and same-site frames work now; being tried on real systems (incident and ticket tools) and tuned by what it runs into.
 - **External chats, what concerns you**: replies to you and your keywords are marked; being tuned by daily use.
 
